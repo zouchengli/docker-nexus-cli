@@ -9,7 +9,7 @@ chengli.zou@clz-mbp docker-nexus-cli % docker build . -t zouchengli/nexus-cli
 ## usage
 ```shell
 chengli.zou@clz-mbp docker-nexus-cli % docker run -eNEXUS_HOST=http://nexus3.xxx.com -eNEXUS_USER=admin -eNEXUS_PASS=admin -eNEXUS_REPO=docker-releases  --rm -it zouchengli/nexus-cli
-~ # sh /opt/crendetials.sh
+~ # sh /opt/credentials.sh /root/
 ~ # nexus-cli --help
 NAME:
    Nexus CLI - Manage Docker Private Registry on Nexus
