@@ -1,4 +1,4 @@
-cat << _EOF > ~/.credentials
+cat << _EOF > ~/.crendetials
 # Nexus Credentials
 nexus_host = "${NEXUS_HOST}"
 nexus_username = "${NEXUS_USER}"
